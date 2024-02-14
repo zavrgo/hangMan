@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>висилица</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="modal">
+        <form action="" class="formochka">
+            <h2 class="text1">настройки</h2>
+            <button id="onep">на одного</button>
+            <button id="player2">на двоих</button>
+
+        </form>
+    </div>
+    <div id="wordModal">
+        <form action="" class="formochka">
+            <h2 class="neZanyat">1 игрок</h2>
+            <h3>1 игрок загадывает слово, а 2 игрок должен его угадать</h3>
+            <input type="text" placeholder="слово" class="vvod" id="playerInput2">
+            <button id="wordButton">готово</button>
+
+        </form>
+    </div>
+    <form action="" class="formochka">
+        <h1 id="h1">виселица</h1>
+        <img src="hangman0.png" alt="" class="img" id="img">
+        <h2 class="text1">____</h2>
+        <input type="text" placeholder="?" maxlength="1" class="vvod" id="playerInput">
+        <button id="checkButton">проверить букву</button>
+        <button id="newGame">новая игра</button>
+        <button id="nastroyka">настройки</button>
+        <p id="podskazka">вводи букву и нажимай проверить</p>
+    </form>
+    <script src="script.js" type="module"></script>
+</body>
+
+</html>
