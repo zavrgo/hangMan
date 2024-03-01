@@ -68,7 +68,15 @@ body {
     outline: none;
 }
 
+.formochka .activeLang {
+    background-color: #787878;
+    color: rgb(255, 255, 255);
+}
 
+.formochka .activeLang:hover {
+    background: rgb(85, 85, 85);
+    color: rgb(255, 255, 255);
+}
 
 .formochka button {
     font-family: 'Ubuntu', sans-serif;
@@ -88,6 +96,7 @@ body {
 .formochka button:hover {
     background-color: white;
     border: solid 1px grey;
+    color: #4e4e4e;
 }
 
 
